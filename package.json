@@ -4,12 +4,16 @@
   "description": "<h1 align=\"center\">Toy Starter</h1>",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --progress --watch --config webpack.config.js"
+    "start": "npm run dev",
+    "dev": "rsbuild dev",
+    "build": "rsbuild build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@rsbuild/core": "^1.0.18",
+    "@types/react-dom": "^18.3.1",
     "@typescript-eslint/eslint-plugin": "^8.11.0",
     "@typescript-eslint/parser": "^8.11.0",
     "antd": "^5.21.6",
@@ -17,15 +21,6 @@
     "eslint-config-airbnb": "^19.0.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.27.0",
-    "ts-loader": "^9.5.1",
-    "webpack": "^5.95.0",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.1.0"
-  },
-  "devDependencies": {
-    "@types/react-dom": "^18.3.1",
-    "clean-webpack-plugin": "^4.0.0",
-    "html-webpack-plugin": "^5.6.3"
+    "react-router-dom": "^6.27.0"
   }
 }

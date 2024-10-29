@@ -8,7 +8,7 @@ The purpose of this boilerplate is for developing toy projects.
 * **React Router**, probably it's almost neccesary in a react App.
 * **Redux Toolkit**, I have to admit Redux is vorbose, but its devtool is great.
 * **Ant Design**, I even don't want to write Tailwind's classes.
-* **webpack**, for its ecosystem. It does not negatively impact the DX in a tiny project.
+* **Rsbuild**, a Vite challenger.
 
 
 ## What's Not Included
